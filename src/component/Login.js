@@ -46,7 +46,7 @@ class Login extends Component {
   render() {
     return (
       <div className="container container-size">
-        <div className="row">
+        <div className="row mb-4">
           <div className="col">
             <Card className="card-login">
               <CardTitle>

@@ -52,13 +52,13 @@ class Header extends React.Component {
               </NavLink> */}
 
               <span className="col-8 d-flex justify-content-center">
-                <NavLink className="nav-link mr-4" to="/budget">
+                <NavLink className="nav-link nav-btn mr-4" to="/budget">
                   Budget
                 </NavLink>
-                <NavLink className="nav-link mr-4" to="/portfolio">
+                <NavLink className="nav-link nav-btn mr-4" to="/portfolio">
                   WatchList
                 </NavLink>
-                <NavLink className="nav-link mr-4" to="/todo">
+                <NavLink className="nav-link nav-btn mr-4" to="/todo">
                   My Tasks
                 </NavLink>
               </span>

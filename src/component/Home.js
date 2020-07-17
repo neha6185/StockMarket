@@ -7,29 +7,25 @@ function Home() {
   return (
     <div className="container-fluid home-container">
       <div className="row">
-        <div className="col mt-5">
+        <div className="col mt-5 mb-4">
           <h3 className="what">
-            What’s In Your <span className="wallet">Wallet</span> ?
+            What’s In Your <span className="wallet">Wallet</span>{" "}
           </h3>
-          <img
-            src="https://cdn1.iconfinder.com/data/icons/accounting-26/64/balance-scale-tax-money-business-512.png"
-            width="180"
-            alt="cash-icon"
-          />
-          {/* <h4 className="plan-future">
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/business-management-and-growth-1-6/65/11-512.png"
-              width="30"
-              alt="cash-icon"
-            />
-            {"  "}
-            Let's Plan Future{"  "}
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/business-management-and-growth-1-6/65/11-512.png"
-              width="30"
-              alt="cash-icon"
-            />
-          </h4> */}
+          <h5 className="mt-4 mb-5">
+            <span className="all-in-one ml-5">PLANNER : All-In-One . . .</span>{" "}
+            let's plan budget | future | tasks
+          </h5>
+
+          <span className="opacity">
+            <span className="opacity-2">
+              <img
+                src="https://cdn4.iconfinder.com/data/icons/accounting-13/64/tax-interest-money-cash-investment-512.png"
+                width="230"
+                alt="cash-icon"
+                className="cash-icon mr-3"
+              />
+            </span>
+          </span>
         </div>
       </div>
       <div
@@ -42,7 +38,7 @@ function Home() {
         }}
       >
         <div className="col-12 col-lg-4 mb-2 box">
-          <Card style={{ backgroundColor: "#29aab6", borderColor: "primary" }}>
+          <Card className="card" style={{ backgroundColor: "#29aab6" }}>
             <CardImg
               src="https://cdn.mydollarplan.com/wp-content/uploads/2011/02/Pie-Chart.jpg"
               alt="Expenses"
@@ -54,7 +50,7 @@ function Home() {
           </Card>
         </div>
         <div className="col-12 col-lg-4 mb-2 box">
-          <Card style={{ backgroundColor: "#107983", borderColor: "primary" }}>
+          <Card className="card" style={{ backgroundColor: "#107983" }}>
             <CardImg
               src="https://media.ycharts.com/charts/d10a7141799f6642aaca8dbde7faa5c3.png"
               alt="Portfolio"
@@ -67,7 +63,7 @@ function Home() {
           </Card>
         </div>
         <div className="col-12 col-lg-4 mb-lg-2 mb-5 box">
-          <Card style={{ backgroundColor: "#004d79", borderColor: "primary" }}>
+          <Card className="card" style={{ backgroundColor: "#004d79" }}>
             <CardImg
               src="https://d12y7sg0iam4lc.cloudfront.net/s/img/marketing/top-todo-app/to-do-list.png"
               alt="To-do"

@@ -5,6 +5,7 @@ import {
   Row,
   Card,
   CardBody,
+  CardTitle,
   CardSubtitle,
   CardFooter,
 } from "reactstrap";
@@ -63,11 +64,14 @@ class Register extends Component {
   render() {
     return (
       <div className="container container-size">
-        <div className="row">
+        <div className="row mb-4">
           <div className="col">
             <Card className="card-login">
+              <CardTitle>
+                <h4 className="welcome">Welcome !</h4>
+              </CardTitle>
               <CardSubtitle>
-                <h5 className="mt-3">Sign up for free !</h5>
+                <h5>Sign up for free !</h5>
               </CardSubtitle>
               <CardBody>
                 <LocalForm onSubmit={(values) => this.handleSubmit(values)}>

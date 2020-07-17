@@ -5,11 +5,11 @@ body {
   font-family: "Josefin Slab", serif;
   color: white;
   font-weight: 300;
-  background: #0e1b2e;
+  background: #00274b;
 }
 
 .overlay {
-  background: #0e1b2e;
+  background: #00274b;
 }
 
 h1,
@@ -40,7 +40,6 @@ h5 {
   border-bottom-width: 4px;
   border-top-width: 4px;
   background-color: rgba(0, 255, 255, 0.15);
-
 }
 
 .signUp {
@@ -79,6 +78,12 @@ header {
   padding: 8px 16px;
   font-family: "Architects Daughter", cursive;
   letter-spacing: 1.5px;
+  border: 1px solid #00ffff98;
+  border-radius: 3px;
+}
+
+.login:hover {
+  border: none;
 }
 
 .login:hover span {
@@ -94,28 +99,25 @@ header {
     repeating-linear-gradient(157deg, rgba(1, 1, 1, 0.01) 0px, rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px, rgba(1, 1, 1, 0.15) 24px, rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px, rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px, rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px, rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px, rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px, rgba(1, 1, 1, 0.18) 168px),
     repeating-linear-gradient(112deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px, rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px, rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px, rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px),
     repeating-linear-gradient(202deg, rgba(1, 1, 1, 0.18) 0px, rgba(1, 1, 1, 0.18) 3px, rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px, rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px, rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px, rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px, rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px, rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px, rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, rgba(1, 1, 1, 0.19) 69px),
-    linear-gradient(157deg, rgb(25, 28, 34), rgb(46, 53, 74));
+    linear-gradient(157deg, rgb(54, 59, 68), rgb(46, 53, 74));
   font-family: "Bellefair",
     serif;
   font-weight: 600;
   letter-spacing: 1.5px;
-  border-bottom: 0.2px solid #00ffffca;
+  border-bottom: 0.2px solid #00ffffa2;
 }
-
-/* 
-.icon {
-  width: 120px;
-  position: fixed;
-  top: 0;
-  left: 140px;
-} */
 
 .planner h1 {
   color: #83edfb;
   position: fixed;
   top: 1px;
-  font-size: 2rem;
-  border-bottom: 0.2px solid #00ffffca;
+  font-size: 36px;
+  padding-left: 40px;
+  padding-right: 10px;
+  border-radius: 50%;
+  border-left: 50px solid #83edfb49;
+  animation: example 20s infinite;
+
 }
 
 .planner:hover {
@@ -123,8 +125,7 @@ header {
 }
 
 .planner h1:hover {
-  color: rgb(184, 207, 205);
-  animation: example 5s infinite;
+  font-size: 40px;
 }
 
 @keyframes example {
@@ -132,25 +133,26 @@ header {
     color: #00b6b6;
   }
 
-  20% {
-    color: rgb(0, 174, 255);
+  30% {
+    color: rgb(200, 231, 245);
   }
 
-  40% {
-    color: cyan;
-  }
-
-  80% {
-    color: rgb(134, 87, 209);
+  70% {
+    color: rgb(125, 140, 221);
   }
 
   100% {
-    color: rgb(132, 0, 255);
+    color: rgb(0, 255, 221);
   }
 }
 
 .nav-link {
   color: #d2e4ec;
+}
+
+.nav-btn {
+  width: 120px;
+  text-align: center;
 }
 
 .navBar .nav-link:hover {
@@ -206,6 +208,39 @@ header {
   text-align: center;
 }
 
+.home-container h5 {
+  margin-right: 1%;
+}
+
+.all-in-one {
+  color: #b1dbf6;
+  padding-right: 16px;
+}
+
+.cash-icon {
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-top: 20px;
+  border-left: 55px inset #ddd;
+  border-right: 20px inset #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.opacity {
+  opacity: .9;
+  background-color: #83dde069;
+  border-radius: 5px;
+  padding: 55px 15px 70px 10px;
+}
+
+.opacity-2 {
+  opacity: .9;
+  background-color: #28a7ac69;
+  border-radius: 5px;
+  padding: 70px 0px 60px 50px;
+}
+
 .budget-card {
   background-color: transparent !important;
   padding-top: 27px;
@@ -236,21 +271,40 @@ tbody {
   text-align: center;
   width: 60%;
   margin: 100px auto auto auto;
+  border-bottom: 20px outset #83edfb9d;
+
 }
 
 .what {
   color: #b2ccdd;
   font-family: "Alfa Slab One", cursive;
+  margin-right: 10%;
 }
 
 .wallet {
   color: #72aed6;
   text-transform: uppercase;
+  padding-right: 26px;
+  padding-left: 10px;
+  border-radius: 5%;
+  border-right: 25px solid #83edfb9d;
+  border-bottom: 5px solid #83edfb9d;
+}
+
+.card {
+  box-shadow: 0 2px 5px #18a0a5;
+  border-radius: 10px;
+}
+
+.box {
+  border-radius: 7px;
 }
 
 .box:hover {
   transition: all ease 500ms;
-  transform: scale(1.05);
+  transform: scale(1.03);
+  border: 1px solid #83edfb9d;
+  border-radius: 25px;
 }
 
 footer {
@@ -263,7 +317,7 @@ footer {
     repeating-linear-gradient(157deg, rgba(1, 1, 1, 0.01) 0px, rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px, rgba(1, 1, 1, 0.15) 24px, rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px, rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px, rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px, rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px, rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px, rgba(1, 1, 1, 0.18) 168px),
     repeating-linear-gradient(112deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px, rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px, rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px, rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px),
     repeating-linear-gradient(202deg, rgba(1, 1, 1, 0.18) 0px, rgba(1, 1, 1, 0.18) 3px, rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px, rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px, rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px, rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px, rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px, rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px, rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, rgba(1, 1, 1, 0.19) 69px),
-    linear-gradient(157deg, rgb(25, 28, 34), rgb(46, 53, 74));
+    linear-gradient(157deg, rgb(46, 53, 71), rgb(46, 53, 74));
   border-top: 1px solid rgba(0, 255, 255, 0.4);
 }
 
@@ -291,6 +345,10 @@ form {
 }
 
 .task {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto auto 36px auto;
   border-radius: 5px;
   border: .1px solid #18a0a5;
   max-width: 550px;
@@ -306,7 +364,7 @@ form {
   box-shadow: 0 2px 5px #18a0a5;
   padding: 10px;
   width: 240px;
-  margin: 36px 16px;
+  margin: 90px 16px 0;
   float: left;
   color: #00ffff;
   resize: none;
