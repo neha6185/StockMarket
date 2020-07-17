@@ -7,18 +7,14 @@ function Home() {
   return (
     <div className="container-fluid home-container">
       <div className="row">
-        <div className="col mt-5 mb-5">
+        <div className="col mt-5 mb-4">
           <h3 className="what">
-            What’s In Your <span className="wallet">Wallet</span>
+            What’s In Your <span className="wallet">Wallet</span>{" "}
           </h3>
-          <h5 className="mb-4">let's plan budget | future | tasks</h5>
-
-          {/* <img
-            src="https://cdn1.iconfinder.com/data/icons/accounting-26/64/balance-scale-tax-money-business-512.png"
-            width="220"
-            alt="cash-icon"
-            className="cash-icon mr-3"
-          /> */}
+          <h5 className="mt-4 mb-5">
+            <span className="all-in-one ml-5">PLANNER : All-In-One . . .</span>{" "}
+            let's plan budget | future | tasks
+          </h5>
 
           <span className="opacity">
             <span className="opacity-2">
@@ -30,20 +26,6 @@ function Home() {
               />
             </span>
           </span>
-          {/* <h4 className="plan-future">
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/business-management-and-growth-1-6/65/11-512.png"
-              width="30"
-              alt="cash-icon"
-            />
-            {"  "}
-            Let's Plan Future{"  "}
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/business-management-and-growth-1-6/65/11-512.png"
-              width="30"
-              alt="cash-icon"
-            />
-          </h4> */}
         </div>
       </div>
       <div
