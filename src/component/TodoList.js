@@ -20,22 +20,24 @@ function TodoList() {
   }
 
   return (
-    <div className="container container-size task">
-      <h4>
-        A<small>DD</small> T<small>ASK</small>
-      </h4>
-      <CreateArea onAdd={addNote} />
-      {notes.map((noteItem, index) => {
-        return (
-          <Note
-            key={index}
-            id={index}
-            title={noteItem.title}
-            content={noteItem.content}
-            onDelete={deleteNote}
-          />
-        );
-      })}
+    <div className="container container-size">
+      <div className="task">
+        <h4 className="mt-4">
+          A<small>DD</small> T<small>ASK</small>
+        </h4>
+        <CreateArea onAdd={addNote} />
+        {notes.map((noteItem, index) => {
+          return (
+            <Note
+              key={index}
+              id={index}
+              title={noteItem.title}
+              content={noteItem.content}
+              onDelete={deleteNote}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
